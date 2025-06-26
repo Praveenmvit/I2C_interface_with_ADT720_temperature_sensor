@@ -20,11 +20,23 @@ The ADT7420 is a high accuracy digital temperature sensor offering breakthrough 
 4.  After this 8 bit address is send to the sensor.
 5.  Ack will be send by the sensor, after the address is received.
 6.  write data into the register that is pointed by the address pointer register.
-7.  If 16 byte, send 8 bit data (Msb) followed by master receive ack. then send another 8 bit data(Lsb).
+7.  If 16 bit, send 8 bit data (Msb) followed by master receive ack. then send another 8 bit data(Lsb).
 8.  Ack will be send for this lsb data. After which master send stop to sensor.
 <div align="center">
 <image src = "https://github.com/user-attachments/assets/f718741b-ae3e-4eb1-ba03-ab4c3e88a6bf">  
-</div>
+</div>  
 
+## READING DATA FROM ADT7420 REGISTER:
+1.  Before reading we need writting into the address register.
+2.  start -> initialization with write -> followed by 8 bit address pointer register write.
+3.  Need to do Repeat start -> again initialization but this time with read -> wait for init ack.
+4.  init ack send by sensor followed by 8 bit data.
+5.  For receiving 8 bit data from sensor ( adt7420 ). master will send no ack.
+6.  If it is the 16 bit data need to be send. then for first 8 bit data(msb), master will send ack.
+7.  After getting next 8 bit data ( lsb). master will send no ack.
+8.  And then stop.
+<div align="center">
+<image src = "https://github.com/user-attachments/assets/e133ee2b-ad05-4d40-8f70-565536cc3622">  
+</div>  
 
 
