@@ -4,5 +4,6 @@ The ADT7420 is a high accuracy digital temperature sensor offering breakthrough 
 <div align="center">
 <image src = "https://github.com/user-attachments/assets/92c9d85a-0bfd-47c6-86a0-28accd256a38">  
 </div>
+## WRITING DATA INTO ADT720 REGISTER:
 
 
