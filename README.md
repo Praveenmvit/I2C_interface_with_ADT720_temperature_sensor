@@ -9,6 +9,7 @@ The ADT7420 is a high accuracy digital temperature sensor offering breakthrough 
 | **ADT7411** | I²C       | 10-bit ADC | ±1.0°C   | Includes ADC & other features     |
 | **ADT7310** | SPI       | 16-bit     | ±0.5°C   | SPI version of ADT7420            |
 | **ADT7320** | SPI       | 16-bit     | ±0.25°C  | SPI version with higher accuracy  |
+
 </div>
 <div align="center">
 <image src = "https://github.com/user-attachments/assets/92c9d85a-0bfd-47c6-86a0-28accd256a38">  
