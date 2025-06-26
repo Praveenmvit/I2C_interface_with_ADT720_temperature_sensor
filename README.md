@@ -1,1 +1,1 @@
-# I2C_interface_with_ADT720_temperature_sensor
+# I2C_interface_with_ADT7420_temperature_sensor
