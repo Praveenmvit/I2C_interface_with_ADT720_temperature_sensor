@@ -6,12 +6,12 @@ The ADT7420 is a high accuracy digital temperature sensor offering breakthrough 
 </div>
 
 ## REGISTERS IN ADT7420:
-- Nine temperature registers
-• A status register
-• An ID register
-• A configuration register
-• An address pointer register
-• A software reset
+- Temperature registers -> 2 byte(R/W')\
+• A status register -> 1 byte(RO)\
+• An ID register -> 1 byte (RO)\
+• A configuration register -> 1 byte(R/W')\
+• An address pointer register -> 1 byte(W)\
+• A software reset -> 1byte(R/W')\
 
 ## WRITING DATA INTO ADT7420 REGISTER:
 
