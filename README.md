@@ -5,6 +5,14 @@ The ADT7420 is a high accuracy digital temperature sensor offering breakthrough 
 <image src = "https://github.com/user-attachments/assets/92c9d85a-0bfd-47c6-86a0-28accd256a38">  
 </div>
 
+## REGISTERS IN ADT7420:
+- Nine temperature registers
+• A status register
+• An ID register
+• A configuration register
+• An address pointer register
+• A software reset
+
 ## WRITING DATA INTO ADT7420 REGISTER:
 
 
